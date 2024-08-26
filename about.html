@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FELIXIS-tech</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Custom CSS -->
+    <style>
+        .hero-about {
+            height: 60vh;
+            background: url('https://images.unsplash.com/photo-1579403124614-197f69d8187b?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-about h1 {
+            color: white;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .team-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .values-section {
+            background-color: #f5f5f5;
+            padding: 40px 0;
+        }
+
+        .values-section h5 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="transparent">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo purple-text">FELIXIS-tech</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons purple-text">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html" class=" purple-text">Home</a></li>
+                <li><a href="about.html" class="purple-text">About</a></li>
+                <li><a class="purple-text dropdown-trigger" href="#!" data-target="dropdown1">Projects<i
+                            class="material-icons right ">arrow_drop_down</i></a></li>
+    
+                <li><a href="contact.html" class="purple-text">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="https://okekekachi.github.io/recipe/" class=" purple-text text-darken-4"><strong>Recipe
+                    Website</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/RGB-color-game/" class=" purple-text text-darken-4"><strong>RGB color
+                    Game</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/calculator-app/" class=" purple-text text-darken-4"><strong>Calculator
+                    app</strong>
+            </a></li>
+    </ul>
+    
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html" class=" purple-text">Home</a></li>
+        <li><a href="about.html" class=" purple-text">About</a></li>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header purple-text">Projects</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://okekekachi.github.io/recipe/">Recipe website</a></li>
+                        <li><a href="https://okekekachi.github.io/RGB-color-game/">RGB color Game</a></li>
+                        <li><a href="https://okekekachi.github.io/calculator-app/">Calculator app</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    
+        <li><a href="contact.html" class=" purple-text">Contact</a></li>
+    </ul>
+
+
+
+    <!-- Hero Section -->
+    <div class="hero-about">
+        <h1>About Us</h1>
+    </div>
+
+    <!-- Company Story Section -->
+    <div class="container section">
+        <div class="row">
+            <div class="col s12 m6">
+                <h2>Our Story</h2><br>
+                <p>
+                    FELIXIS-tech was founded with a mission to bring innovative software solutions to businesses of all
+                    sizes. Our team of passionate developers and designers is dedicated to creating custom software that
+                    not only meets client needs but also exceeds expectations. We believe in the power of technology to
+                    transform businesses and strive to deliver solutions that are both reliable and scalable.
+                </p>
+            </div>
+            <div class="col s12 m6">
+                <img src="https://images.unsplash.com/photo-1530721733923-e2df89901503?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width: 600px; height: 400px;" alt="Our Story" class="responsive-img hoverable">
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Section -->
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+                <h2>Our Mission</h2>
+                <p>
+                    At FELIXIS-tech, our mission is to empower businesses through technology. We aim to deliver
+                    innovative software solutions that drive growth, enhance operational efficiency, and create a
+                    lasting impact. Our commitment to quality, security, and user experience is at the core of
+                    everything we do.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Values Section -->
+    <div class="values-section purple lighten-2">
+        <div class="container">
+            <h2 class="center-align">Our Values</h2>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card hoverable center-align">
+                        <div class="card-content">
+                            <i class="material-icons large">verified_user</i>
+                            <h5>Integrity</h5>
+                            <p>We operate with transparency and honesty, building trust with our clients and partners.
+                            </p><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable center-align">
+                        <div class="card-content">
+                            <i class="material-icons large">trending_up</i>
+                            <h5>Innovation</h5>
+                            <p>We constantly seek new ways to solve problems, using cutting-edge technology to stay
+                                ahead of the curve.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable center-align">
+                        <div class="card-content">
+                            <i class="material-icons large">group</i>
+                            <h5>Collaboration</h5>
+                            <p>We believe in the power of teamwork, working closely with our clients to bring their
+                                visions to life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Meet the Team Section -->
+    <div class="container section">
+        <h2 class="center-align">Meet Me</h2>
+        <div class="row">
+            <div class="col s12 m3">  
+            </div>
+            <div class="col s12 m6">
+                <div class="card team-card hoverable">
+                    <div class="card-image">
+                        <img src="img/ananymous.png" alt="Team Member 1" width="100">
+                    </div>
+                    <div class="card-content center-align">
+                        <h5>Okeke Felix</h5>
+                        <p>CEO & Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">FELIXIS-tech</h5>
+                    <p class="grey-text text-lighten-4">We are a team of passionate developers committed to building
+                        world-class software solutions.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100067709473839" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/R.51ae405e1b464603ee8ac65599eb5c95?rik=WR5BGUHuMfpD9A&pid=ImgRaw&r=0"
+                    alt="Facebook">
+            </a>
+            <a href="https://x.com/OkekeKachi2?t=NcIkLqWpdWphA1Ki5VQzbA&s=09" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.kYsg3AqnFuCf0KWPndjnIAHaEn?rs=1&pid=ImgDetMain" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/felixis_07?igsh=dzBwODF1Mm5uc2F5" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.2918gwC_S-Cz4jv0RaubXwAAAA?rs=1&pid=ImgDetMain" alt="Instagram">
+            </a>
+            <a href="https://wa.me/07039233521" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/R.42ed09981b892f36a354b7e86fac9f17?rik=a2k114RgvKzbuw&pid=ImgRaw&r=0"
+                    alt="WhatsApp">
+            </a>
+    
+        </div>
+    
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 FELIXIS-tech
+    
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Materialize JS -->
+    <script src="js/jQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+        $(document).ready(function () {
+            $(".dropdown-trigger").dropdown();
+            $('.collapsible').collapsible()
+            $('sidenav').sidenav()
+        })
+    </script>
+</body>
+
+</html>

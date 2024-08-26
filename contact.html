@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FELIXIS-tech</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Custom CSS -->
+    <style>
+        .hero-contact {
+            height: 60vh;
+            background: url('https://plus.unsplash.com/premium_photo-1666298863696-8e8da5d85f2b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-contact h1 {
+            color: white;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .contact-info {
+            padding: 20px 0;
+        }
+
+        .contact-info i {
+            font-size: 2rem;
+            color: #26a69a;
+        }
+
+        .contact-info h5 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .map-section {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="transparent">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo purple-text">FELIXIS-tech</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i
+                    class="material-icons purple-text">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html" class=" purple-text">Home</a></li>
+                <li><a href="about.html" class="purple-text">About</a></li>
+                <li><a class="purple-text dropdown-trigger" href="#!" data-target="dropdown1">Projects<i
+                            class="material-icons right ">arrow_drop_down</i></a></li>
+
+                <li><a href="contact.html" class="purple-text">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="https://okekekachi.github.io/recipe/" class=" purple-text text-darken-4"><strong>Recipe
+                    Website</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/RGB-color-game/" class=" purple-text text-darken-4"><strong>RGB color
+                    Game</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/calculator-app/" class=" purple-text text-darken-4"><strong>Calculator
+                    app</strong>
+            </a></li>
+    </ul>
+
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html" class=" purple-text">Home</a></li>
+        <li><a href="about.html" class=" purple-text">About</a></li>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header purple-text">Projects</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://okekekachi.github.io/recipe/">Recipe website</a></li>
+                        <li><a href="https://okekekachi.github.io/RGB-color-game/">RGB color Game</a></li>
+                        <li><a href="https://okekekachi.github.io/calculator-app/">Calculator app</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <li><a href="contact.html" class=" purple-text">Contact</a></li>
+    </ul>
+
+
+    <!-- Hero Section -->
+    <div class="hero-contact">
+        <h1>Contact Us</h1>
+    </div>
+
+    <!-- Contact Information Section -->
+    <div class="container section contact-info">
+        <div class="row">
+            <div class="col s12 m4 center-align">
+                <a href="tel:09123231279"><i class="material-icons">phone</i></a>
+                <a href="tel:09123231279">
+                    <h5>Call Us</h5>
+                </a>
+                <a href="tel:09123231279">
+                    <p>(+234) 909-761-9398</p>
+                </a>
+            </div>
+            <div class="col s12 m4 center-align">
+                <a href="mailto:okekefelix51@gmail.com"><i class="material-icons">email</i></a>
+                <a href="mailto:okekefelix51@gmail.com">
+                    <h5>Email Us</h5>
+                </a>
+                <a href="mailto:okekefelix51@gmail.com">
+                    <p>info@felixis-tech.com</p>
+                </a>
+            </div>
+            <div class="col s12 m4 center-align">
+                <a href="#map"><i class="material-icons">location_on</i></a>
+                <a href="#map">
+                    <h5>Visit Us</h5>
+                </a>
+                <a href="#map">
+                    <p>CRD CITY, Lugbe , Abuja.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="container section">
+        <div class="row">
+            <div class="col s12 l6">
+                <h4>Send Us a Message</h4><br><br>
+                <form>
+                    <div class="input-field">
+                        <input id="name" type="text" class="validate" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="email" type="email" class="validate" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-field">
+                        <textarea id="message" class="materialize-textarea" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div><br><br>
+                    <button class="btn waves-effect waves-light" type="submit">Send Message
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+            </div>
+            <div class="col s12 l6">
+                <h5>Our Location</h5>
+                <!-- Replace with an embedded Google Map or a static map image -->
+                <div id="map" class="mapouter scrollspy hide-on-med-and-down">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=700&amp;height=400&amp;hl=en&amp;q=crd city&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://strandsgame.net/">Strands Game</a></div>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            width: 700px;
+                            height: 400px;
+                        }
+
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 700px;
+                            height: 400px;
+                        }
+
+                        .gmap_iframe {
+                            width: 700px !important;
+                            height: 400px !important;
+                        }
+                    </style>
+                </div>
+                <div id="map" class="mapouter2 scrollspy hide-on-large-only">
+                    <div class="gmap_canvas2"><iframe class="gmap_iframe2" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=350&amp;height=400&amp;hl=en&amp;q=crd city&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                            href="https://strandsgame.net/">Strands Game</a></div>
+                    <style>
+                        .mapouter2 {
+                            position: relative;
+                            text-align: right;
+                            width: 350px;
+                            height: 400px;
+                        }
+
+                        .gmap_canvas2 {
+                            overflow: hidden;
+                            background: none !important;
+                            width: 350px;
+                            height: 400px;
+                        }
+
+                        .gmap_iframe2 {
+                            width: 350px !important;
+                            height: 400px !important;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">FELIXIS-tech</h5>
+                    <p class="grey-text text-lighten-4">We are a team of passionate developers committed to building
+                        world-class software solutions.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <a href="https://www.facebook.com/profile.php?id=100067709473839" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/R.51ae405e1b464603ee8ac65599eb5c95?rik=WR5BGUHuMfpD9A&pid=ImgRaw&r=0"
+                    alt="Facebook">
+            </a>
+            <a href="https://x.com/OkekeKachi2?t=NcIkLqWpdWphA1Ki5VQzbA&s=09" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.kYsg3AqnFuCf0KWPndjnIAHaEn?rs=1&pid=ImgDetMain" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/felixis_07?igsh=dzBwODF1Mm5uc2F5" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.2918gwC_S-Cz4jv0RaubXwAAAA?rs=1&pid=ImgDetMain" alt="Instagram">
+            </a>
+            <a href="https://wa.me/07039233521" class="icons" target="_blank">
+                <img src="https://th.bing.com/th/id/R.42ed09981b892f36a354b7e86fac9f17?rik=a2k114RgvKzbuw&pid=ImgRaw&r=0"
+                    alt="WhatsApp">
+            </a>
+
+        </div>
+
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 FELIXIS-tech
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Materialize JS -->
+    <script src="js/jQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+        $(document).ready(function () {
+            $(".dropdown-trigger").dropdown();
+            $('.collapsible').collapsible()
+            $('sidenav').sidenav()
+        })
+    </script>
+</body>
+
+</html>

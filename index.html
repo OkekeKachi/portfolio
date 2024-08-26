@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FELIXIS-tech</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero-section {
+            height: 50vh;
+            background: url('https://images.unsplash.com/photo-1579403124614-197f69d8187b?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+            background-size: cover;
+            position: relative;
+        }
+
+        .hero-section .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="transparent">
+        <div class="nav-wrapper container">
+            <a href="index.html" class="brand-logo purple-text">FELIXIS-tech</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons purple-text">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                 <li><a href="index.html" class=" purple-text">Home</a></li>
+                <li><a href="about.html" class="purple-text">About</a></li>
+                <li><a class="purple-text dropdown-trigger"  href="#!"
+                            data-target="dropdown1">Projects<i class="material-icons right ">arrow_drop_down</i></a></li>
+                
+                <li><a href="contact.html" class="purple-text">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="https://okekekachi.github.io/recipe/" class=" purple-text text-darken-4"><strong>Recipe Website</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/RGB-color-game/" class=" purple-text text-darken-4"><strong>RGB color Game</strong>
+            </a>
+        </li>
+        <li><a href="https://okekekachi.github.io/calculator-app/" class=" purple-text text-darken-4"><strong>Calculator app</strong>
+            </a></li>
+    </ul>
+
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-nav">
+         <li><a href="index.html" class=" purple-text">Home</a></li>
+        <li><a href="about.html" class=" purple-text">About</a></li>
+        <ul class="collapsible">
+            <li>
+                <div class="collapsible-header purple-text">Projects</div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="https://okekekachi.github.io/recipe/">Recipe website</a></li>
+                        <li><a href="https://okekekachi.github.io/RGB-color-game/">RGB color Game</a></li>
+                        <li><a href="https://okekekachi.github.io/calculator-app/">Calculator app</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        
+        <li><a href="contact.html" class=" purple-text">Contact</a></li>
+    </ul>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h3>Welcome to FELIXIS-tech</h3>
+            <p>Innovative Software Solutions for Your Business</p>
+            <a href="about.html" class="btn-large purple waves-effect waves-light">Learn More</a>
+            <a href="contact.html" class="btn-large white black-text waves-effect">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="purple-text">About Me</h3>
+        <span style="word-spacing: 3px; font-size: large;">My development journey is rooted in a love for creating simple yet impactful solutions that prioritize user experience. Whether it's crafting interactive web applications or implementing robust has-background-white systems, I am committed to delivering
+        high-quality, reliable code that meets client needs and exceeds expectations.</span>
+    </div>
+    <!-- Services Section -->
+    <div class="container section">
+        <h2 class="center-align">Our Services</h2>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-content center-align">
+                        <i class="material-icons large purple-text">code</i>
+                        <h5 class="purple-text">Web Development</h5>
+                        <p>We build responsive and scalable websites tailored to your needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-content center-align">
+                        <i class="material-icons large purple-text">smartphone</i>
+                        <h5 class="purple-text">Mobile Development</h5>
+                        <p>Custom mobile applications for iOS and Android platforms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-content center-align">
+                        <i class="material-icons large purple-text">cloud</i>
+                        <h5 class="purple-text">Cloud Solutions</h5>
+                        <p>Secure and reliable cloud services for seamless operations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l3">
+                <div class="card hoverable">
+                    <div class="card-content center-align">
+                        <i class="material-icons large purple-text">security</i>
+                        <h5 class="purple-text">Cybersecurity</h5> 
+                        <p>Comprehensive cybersecurity services to protect your data.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">FELIXIS-tech</h5>
+                    <p class="grey-text text-lighten-4">We are a team of passionate developers committed to building
+                        world-class software solutions.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+                        <a href="https://www.facebook.com/profile.php?id=100067709473839" class="icons" target="_blank">
+                            <img src="https://th.bing.com/th/id/R.51ae405e1b464603ee8ac65599eb5c95?rik=WR5BGUHuMfpD9A&pid=ImgRaw&r=0"
+                                alt="Facebook">
+                        </a>
+                        <a href="https://x.com/OkekeKachi2?t=NcIkLqWpdWphA1Ki5VQzbA&s=09" class="icons" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.kYsg3AqnFuCf0KWPndjnIAHaEn?rs=1&pid=ImgDetMain" alt="Twitter">
+                        </a>
+                        <a href="https://www.instagram.com/felixis_07?igsh=dzBwODF1Mm5uc2F5" class="icons" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.2918gwC_S-Cz4jv0RaubXwAAAA?rs=1&pid=ImgDetMain" alt="Instagram">
+                        </a>
+                        <a href="https://wa.me/07039233521" class="icons" target="_blank">
+                            <img src="https://th.bing.com/th/id/R.42ed09981b892f36a354b7e86fac9f17?rik=a2k114RgvKzbuw&pid=ImgRaw&r=0"
+                                alt="WhatsApp">
+                        </a>
+             
+        </div>
+       
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 FELIXIS-tech
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Materialize JS -->
+    <script src="js/jQuery.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });        
+    $(document).ready(function () {
+        $(".dropdown-trigger").dropdown();
+        $('.collapsible').collapsible()
+        $('sidenav').sidenav()
+    })
+    </script>
+</body>
+
+</html>
