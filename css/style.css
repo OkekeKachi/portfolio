@@ -10,3 +10,6 @@ div.col a{
     text-decoration: none;
     color: black;
 }
+a.brand-logo {
+    font-size: 20px;
+}
